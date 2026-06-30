@@ -1,2 +1,2 @@
-# GeneticsGeochemPinkSalmonDispersal
-Code repository for the manuscript “Genetic and geochemical tools to investigate natal return in invasive pink salmon (Oncorhynchus gorbuscha)”.
+# Genetic and geochemical tools to investigate natal return in invasive pink salmon (Oncorhynchus gorbuscha)
+Code repository for the manuscript “Genetic and geochemical tools to investigate natal return in invasive pink salmon (Oncorhynchus gorbuscha)”. The repository contains scripts for genetic kinship analysis, otolith strontium isotope processing, reference baseline visualization, and figures used to evaluate natal return and straying in invasive pink salmon in northern Norway.
