@@ -1,0 +1,5 @@
+"pane","props","comparison","group","ci_high","ci_low"
+"random",0.917206081589643,"between","random",NA,NA
+"random",0.0827939184103568,"within","random",NA,NA
+"sibs",0.461538461538462,"between","observed",NA,NA
+"sibs",0.538461538461538,"within","observed",0.807767558198712,0.251345482270304
