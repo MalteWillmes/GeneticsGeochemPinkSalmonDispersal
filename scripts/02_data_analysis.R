@@ -49,7 +49,7 @@ isoscape_data <- water_data %>%
 #Water isoscape
 p_isoscape <- ggplot(data=isoscape_data)+
   geom_jitter(aes (x=reorder(River,east, fun=min), y=Sr87Sr86,fill=sample_material, shape= sample_material),
-              color="black",size=3, alpha=0.6)+
+              color="black",size=3, alpha=0.6, width=0)+
   xlab("Rivers")+
   scale_shape_manual(name="Sample material", values=c(23,21))+
   scale_fill_manual(name="Sample material", values=c("darkblue","purple"))+
@@ -76,7 +76,7 @@ p_sr_natal<- ggplot(data=sr_data_natal)+
   geom_hline(yintercept=min(juv_join$Sr87Sr86),  color="steelblue",linetype="dashed")+
   geom_hline(yintercept=max(juv_join$Sr87Sr86),  color="steelblue",linetype="dashed")+
   geom_jitter(aes(x=Lifestage, y=sr87sr86_roi_mean, fill=Lifestage),
-              size=3, alpha=0.8, width=0.2, shape=21)+
+              size=3, alpha=0.8, width=0, shape=21)+
   scale_y_continuous(expression(""^87*Sr*"/"^86*Sr), 
                      breaks = scales::pretty_breaks(n = 5))+
   scale_fill_manual(values=c("orange","purple"))+
